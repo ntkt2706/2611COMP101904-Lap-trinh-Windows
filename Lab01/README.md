@@ -56,33 +56,47 @@ Chương trình kiểm tra dữ liệu, tính tuổi dựa trên năm sinh và h
 
 ![Lỗi họ tên](Images/loi-ho-ten.png)
 
-Chương trình thông báo:
+Khi người dùng không nhập họ tên và nhấn **HIỂN THỊ**, chương trình thông báo:
 
 > Vui lòng nhập họ tên!
+
+---
 
 ### 4.2. Năm sinh không hợp lệ
 
 ![Lỗi năm sinh](Images/loi-nam-sinh.png)
 
-Chương trình kiểm tra năm sinh phải là số nguyên và nằm trong khoảng hợp lệ.
+Khi năm sinh không phải số nguyên hoặc nằm ngoài khoảng hợp lệ, chương trình thông báo lỗi và yêu cầu nhập lại.
+
+---
 
 ### 4.3. Email không hợp lệ
 
 ![Lỗi Email](Images/loi-email.png)
 
-Chương trình kiểm tra Email phải đúng định dạng.
+Khi Email không đúng định dạng, chương trình thông báo lỗi và yêu cầu người dùng nhập lại.
+
+---
 
 ### 4.4. Chưa chọn giới tính
 
-Chương trình yêu cầu người dùng chọn Nam hoặc Nữ.
+![Chưa chọn giới tính](Images/loi-gioi-tinh.png)
+
+Khi người dùng chưa chọn **Nam** hoặc **Nữ**, chương trình thông báo yêu cầu chọn giới tính.
+
+---
 
 ### 4.5. Chưa chọn khoa/lớp
 
-Chương trình yêu cầu người dùng chọn khoa/lớp trước khi hiển thị kết quả.
+![Chưa chọn khoa](Images/loi-khoa.png)
+
+Khi người dùng chưa chọn khoa/lớp, chương trình thông báo yêu cầu chọn khoa/lớp.
 
 ---
 
 ## 5. Chức năng XÓA
+
+![Chức năng Xóa](Images/chuc-nang-xoa.png)
 
 Khi nhấn nút **XÓA**, chương trình sẽ:
 
@@ -93,9 +107,13 @@ Khi nhấn nút **XÓA**, chương trình sẽ:
 - Bỏ chọn khoa/lớp.
 - Xóa kết quả hiển thị.
 
+Sau khi thực hiện, các ô nhập liệu được đưa về trạng thái ban đầu.
+
 ---
 
 ## 6. Chức năng THOÁT
+
+![Chức năng Thoát](Images/chuc-nang-thoat.png)
 
 Khi nhấn nút **THOÁT**, chương trình hiển thị hộp thoại xác nhận.
 
