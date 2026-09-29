@@ -43,7 +43,7 @@ Các thành phần giao diện gồm
 
 Hình 1. Giao diện chính của chương trình
 
-![Giao diện chính](Imagesgiao-dien.png)
+![Giao diện chính](Images/giao-dien.png)
 
 ### 4.2. Khởi tạo Form và danh sách khóa học
 
@@ -62,7 +62,7 @@ Danh sách khóa học gồm
 
 Hình 2. Danh sách khóa học và giá trị khởi tạo
 
-![Khởi tạo Form](Imageskhoi-tao-form.png)
+![Khởi tạo Form](Images/khoi-tao-form.png)
 
 ### 4.3. Tính tổng học phí
 
@@ -76,7 +76,7 @@ Ví dụ khóa học SQL Server cơ bản có học phí 700.000 VNĐtháng. Khi
 
 Hình 3. Kết quả tính học phí
 
-![Tính học phí](Imagestinh-hoc-phi.png)
+![Tính học phí](Images/tinh-hoc-phi.png)
 
 ### 4.4. Chức năng đăng ký khóa học
 
@@ -92,7 +92,7 @@ Nếu dữ liệu hợp lệ, chương trình hiển thị phiếu đăng ký b�
 
 Hình 4. Phiếu đăng ký khóa học
 
-![Phiếu đăng ký](Imagesphieu-dang-ky.png)
+![Phiếu đăng ký](Images/phieu-dang-ky.png)
 
 ### 4.5. Kiểm tra dữ liệu đầu vào
 
@@ -102,7 +102,7 @@ Trường hợp 1 Họ tên để trống
 
 Khi người dùng nhấn Đăng ký mà chưa nhập họ tên, chương trình hiển thị thông báo yêu cầu nhập họ tên và không tiếp tục xử lý đăng ký.
 
-![Kiểm tra họ tên](Imagesloi-ho-ten.png)
+![Kiểm tra họ tên](Images/loi-ho-ten.png)
 
 Hình 5. Thông báo khi họ tên để trống
 
@@ -110,7 +110,7 @@ Trường hợp 2 Số điện thoại để trống
 
 Khi người dùng đã nhập họ tên nhưng chưa nhập số điện thoại, chương trình hiển thị thông báo yêu cầu nhập số điện thoại.
 
-![Kiểm tra số điện thoại](Imagesloi-so-dien-thoai.png)
+![Kiểm tra số điện thoại](Images/loi-so-dien-thoai.png)
 
 Hình 6. Thông báo khi số điện thoại để trống
 
@@ -129,7 +129,7 @@ Khi nhấn nút Làm mới, chương trình khôi phục giao diện về trạn
 
 Hình 7. Giao diện sau khi làm mới
 
-![Làm mới](Imageslam-moi.png)
+![Làm mới](Images/lam-moi.png)
 
 ### 4.7. Chức năng Thoát
 
@@ -140,7 +140,7 @@ Khi nhấn nút Thoát, chương trình hiển thị hộp thoại xác nhận v
 
 Hình 8. Hộp thoại xác nhận thoát chương trình
 
-![Xác nhận thoát](Imagesxac-nhan-thoat.png)
+![Xác nhận thoát](Images/xac-nhan-thoat.png)
 
 ## 5. Tổng kết
 
