@@ -2,14 +2,17 @@
 
 ## 1. Thông tin sinh viên
 
- Họ và tên Nguyễn Trần Khang Thịnh
- Mã số sinh viên 51.01.104.097
- Lớp 2611COMP101904
- Nhóm [Điền số nhóm của bạn]
- Môn học COMP1019 - Lập trình trên Windows
- Tên dự án CourseRegistrationApp
+| Thông tin           | Nội dung                          |
+| ------------------- | --------------------------------- |
+| **Họ và tên**       | Nguyễn Trần Khang Thịnh           |
+| **Mã số sinh viên** | 51.01.104.097                     |
+| **Lớp**             | 2611COMP101904                    |
+| **Nhóm**            | 8                                 |
+| **Môn học**         | COMP1019 - Lập trình trên Windows |
+| **Tên dự án**       | CourseRegistrationApp             |
 
 ---
+
 
 ## 2. Mục tiêu bài thực hành
 
