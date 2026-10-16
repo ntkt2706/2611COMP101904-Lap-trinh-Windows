@@ -5,7 +5,6 @@ namespace Lab03_QuanLySinhVienOOP
     public class Nguoi
     {
         public string HoTen { get; set; }
-
         public DateTime NgaySinh { get; set; }
 
         public Nguoi(string hoTen, DateTime ngaySinh)
@@ -16,8 +15,7 @@ namespace Lab03_QuanLySinhVienOOP
 
         public virtual string LayThongTin()
         {
-            return "Ho ten: " + HoTen
-                + "\nNgay sinh: " + NgaySinh.ToString("dd/MM/yyyy");
+            return $"Họ tên: {HoTen,-20} | Ngày sinh: {NgaySinh:dd/MM/yyyy}";
         }
     }
 }

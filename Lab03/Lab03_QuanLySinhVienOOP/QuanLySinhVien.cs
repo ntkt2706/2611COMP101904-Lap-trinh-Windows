@@ -1,100 +1,67 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Lab03_QuanLySinhVienOOP
 {
     public class QuanLySinhVien
     {
-        private List<SinhVien> danhSach;
+        private List<SinhVien> _danhSach = new List<SinhVien>();
 
-        public QuanLySinhVien()
+        public void Them(SinhVien sv)
         {
-            danhSach = new List<SinhVien>();
-        }
-
-        // Them sinh vien
-        public bool Them(SinhVien sinhVien)
-        {
-            SinhVien? sinhVienTonTai = danhSach
-                .FirstOrDefault(sv =>
-                    sv.MaSinhVien == sinhVien.MaSinhVien);
-
-            if (sinhVienTonTai != null)
+            if (_danhSach.Any(x => x.MaSinhVien.Equals(sv.MaSinhVien, StringComparison.OrdinalIgnoreCase)))
             {
-                return false;
+                throw new Exception("Mã sinh viên đã tồn tại trong hệ thống.");
             }
-
-            danhSach.Add(sinhVien);
-            return true;
+            _danhSach.Add(sv);
         }
 
-        // Lay danh sach
         public List<SinhVien> LayDanhSach()
         {
-            return danhSach;
+            return _danhSach;
         }
 
-        // Tim theo ma
-        public SinhVien? TimTheoMa(string maSinhVien)
+        public SinhVien TimTheoMa(string maSV)
         {
-            return danhSach.FirstOrDefault(
-                sv => sv.MaSinhVien == maSinhVien);
+            return _danhSach.FirstOrDefault(x => x.MaSinhVien.Equals(maSV, StringComparison.OrdinalIgnoreCase));
         }
 
-        // Tim theo ten
         public List<SinhVien> TimTheoTen(string tuKhoa)
         {
-            return danhSach
-                .Where(sv => sv.HoTen
-                    .ToLower()
-                    .Contains(tuKhoa.ToLower()))
-                .ToList();
+            return _danhSach.Where(x => x.HoTen.IndexOf(tuKhoa, StringComparison.OrdinalIgnoreCase) >= 0).ToList();
         }
 
-        // Sua diem
-        public bool SuaDiem(
-            string maSinhVien,
-            double diemMoi)
+        public bool SuaDiem(string maSV, double diemMoi)
         {
-            SinhVien? sinhVien = TimTheoMa(maSinhVien);
-
-            if (sinhVien == null)
+            var sv = TimTheoMa(maSV);
+            if (sv != null)
             {
-                return false;
+                sv.DiemTrungBinh = diemMoi;
+                return true;
             }
-
-            sinhVien.DiemTrungBinh = diemMoi;
-            return true;
+            return false;
         }
 
-        // Xoa sinh vien
-        public bool Xoa(string maSinhVien)
+        public bool Xoa(string maSV)
         {
-            SinhVien? sinhVien = TimTheoMa(maSinhVien);
-
-            if (sinhVien == null)
+            var sv = TimTheoMa(maSV);
+            if (sv != null)
             {
-                return false;
+                _danhSach.Remove(sv);
+                return true;
             }
-
-            danhSach.Remove(sinhVien);
-            return true;
+            return false;
         }
 
-        // Sap xep diem giam dan
         public List<SinhVien> SapXepTheoDiem()
         {
-            return danhSach
-                .OrderByDescending(sv => sv.DiemTrungBinh)
-                .ToList();
+            return _danhSach.OrderByDescending(x => x.DiemTrungBinh).ToList();
         }
 
-        // Loc sinh vien dat
         public List<SinhVien> LocSinhVienDat()
         {
-            return danhSach
-                .Where(sv => sv.DiemTrungBinh >= 5)
-                .ToList();
+            return _danhSach.Where(x => x.DiemTrungBinh >= 5.0).ToList();
         }
     }
 }

@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab03\\Lab03_QuanLySinhVienOOP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9941C7F-8940-2F09-9BFD-F389FF36F406}|Lab03_QuanLySinhVienOOP.csproj|c:\\users\\ntkt0\\source\\repos\\2611comp101904-lap-trinh-windows\\lab03\\lab03_quanlysinhvienoop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9941C7F-8940-2F09-9BFD-F389FF36F406}|Lab03_QuanLySinhVienOOP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9941C7F-8940-2F09-9BFD-F389FF36F406}|Lab03_QuanLySinhVienOOP.csproj|c:\\users\\ntkt0\\source\\repos\\2611comp101904-lap-trinh-windows\\lab03\\lab03_quanlysinhvienoop\\quanlysinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9941C7F-8940-2F09-9BFD-F389FF36F406}|Lab03_QuanLySinhVienOOP.csproj|solutionrelative:quanlysinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9941C7F-8940-2F09-9BFD-F389FF36F406}|Lab03_QuanLySinhVienOOP.csproj|c:\\users\\ntkt0\\source\\repos\\2611comp101904-lap-trinh-windows\\lab03\\lab03_quanlysinhvienoop\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9941C7F-8940-2F09-9BFD-F389FF36F406}|Lab03_QuanLySinhVienOOP.csproj|solutionrelative:sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9941C7F-8940-2F09-9BFD-F389FF36F406}|Lab03_QuanLySinhVienOOP.csproj|c:\\users\\ntkt0\\source\\repos\\2611comp101904-lap-trinh-windows\\lab03\\lab03_quanlysinhvienoop\\nguoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9941C7F-8940-2F09-9BFD-F389FF36F406}|Lab03_QuanLySinhVienOOP.csproj|solutionrelative:nguoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuanLySinhVien.cs",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab03\\Lab03_QuanLySinhVienOOP\\QuanLySinhVien.cs",
+              "RelativeDocumentMoniker": "QuanLySinhVien.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab03\\Lab03_QuanLySinhVienOOP\\QuanLySinhVien.cs",
+              "RelativeToolTip": "QuanLySinhVien.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T05:19:59.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SinhVien.cs",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab03\\Lab03_QuanLySinhVienOOP\\SinhVien.cs",
+              "RelativeDocumentMoniker": "SinhVien.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab03\\Lab03_QuanLySinhVienOOP\\SinhVien.cs",
+              "RelativeToolTip": "SinhVien.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T05:19:36.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Nguoi.cs",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab03\\Lab03_QuanLySinhVienOOP\\Nguoi.cs",
+              "RelativeDocumentMoniker": "Nguoi.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab03\\Lab03_QuanLySinhVienOOP\\Nguoi.cs",
+              "RelativeToolTip": "Nguoi.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T05:18:43.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab03\\Lab03_QuanLySinhVienOOP\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab03\\Lab03_QuanLySinhVienOOP\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAuwIIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T05:17:47.316Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

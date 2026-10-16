@@ -5,294 +5,126 @@ namespace Lab03_QuanLySinhVienOOP
 {
     internal class Program
     {
-        static QuanLySinhVien quanLy = new QuanLySinhVien();
-
         static void Main(string[] args)
         {
-            int luaChon;
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            QuanLySinhVien qlsv = new QuanLySinhVien();
+            bool isRunning = true;
 
-            do
+            while (isRunning)
             {
-                HienThiMenu();
-                luaChon = NhapSoNguyen("Chon chuc nang: ");
+                Console.WriteLine("\n===== QUAN LY SINH VIEN =====");
+                Console.WriteLine("1. Them sinh vien");
+                Console.WriteLine("2. Xuat danh sach");
+                Console.WriteLine("3. Tim sinh vien theo ma");
+                Console.WriteLine("4. Tim sinh vien theo ten");
+                Console.WriteLine("5. Sua diem trung binh");
+                Console.WriteLine("6. Xoa sinh vien");
+                Console.WriteLine("7. Sap xep theo diem giam dan");
+                Console.WriteLine("8. Loc sinh vien dat");
+                Console.WriteLine("0. Thoat");
+                Console.Write("Chon chuc nang: ");
 
-                switch (luaChon)
+                string choice = Console.ReadLine();
+                Console.WriteLine("-----------------------------");
+
+                try
                 {
-                    case 1:
-                        ThemSinhVien();
-                        break;
-
-                    case 2:
-                        XuatDanhSach(quanLy.LayDanhSach());
-                        break;
-
-                    case 3:
-                        TimTheoMa();
-                        break;
-
-                    case 4:
-                        TimTheoTen();
-                        break;
-
-                    case 5:
-                        SuaDiem();
-                        break;
-
-                    case 6:
-                        XoaSinhVien();
-                        break;
-
-                    case 7:
-                        XuatDanhSach(
-                            quanLy.SapXepTheoDiem());
-                        break;
-
-                    case 8:
-                        XuatDanhSach(
-                            quanLy.LocSinhVienDat());
-                        break;
-
-                    case 0:
-                        Console.WriteLine("Ket thuc chuong trinh!");
-                        break;
-
-                    default:
-                        Console.WriteLine("Lua chon khong hop le!");
-                        break;
-                }
-
-                if (luaChon != 0)
-                {
-                    Console.WriteLine("\nNhan Enter de tiep tuc...");
-                    Console.ReadLine();
-                }
-
-            } while (luaChon != 0);
-        }
-
-        // Hien thi menu
-        static void HienThiMenu()
-        {
-            Console.Clear();
-
-            Console.WriteLine("===== QUAN LY SINH VIEN =====");
-            Console.WriteLine("1. Them sinh vien");
-            Console.WriteLine("2. Xuat danh sach");
-            Console.WriteLine("3. Tim sinh vien theo ma");
-            Console.WriteLine("4. Tim sinh vien theo ten");
-            Console.WriteLine("5. Sua diem trung binh");
-            Console.WriteLine("6. Xoa sinh vien");
-            Console.WriteLine("7. Sap xep theo diem giam dan");
-            Console.WriteLine("8. Loc sinh vien dat");
-            Console.WriteLine("0. Thoat");
-            Console.WriteLine("=============================");
-        }
-
-        // Them sinh vien
-        static void ThemSinhVien()
-        {
-            Console.WriteLine("\n--- THEM SINH VIEN ---");
-
-            Console.Write("Nhap ma sinh vien: ");
-            string maSinhVien = Console.ReadLine() ?? "";
-
-            if (quanLy.TimTheoMa(maSinhVien) != null)
-            {
-                Console.WriteLine("Ma sinh vien da ton tai!");
-                return;
-            }
-
-            Console.Write("Nhap ho ten: ");
-            string hoTen = Console.ReadLine() ?? "";
-
-            DateTime ngaySinh = NhapNgaySinh();
-
-            Console.Write("Nhap ma lop: ");
-            string maLop = Console.ReadLine() ?? "";
-
-            double diemTrungBinh = NhapDiem();
-
-            try
-            {
-                SinhVien sinhVien = new SinhVien(
-                    maSinhVien,
-                    hoTen,
-                    ngaySinh,
-                    maLop,
-                    diemTrungBinh);
-
-                if (quanLy.Them(sinhVien))
-                {
-                    Console.WriteLine("Them sinh vien thanh cong!");
-                }
-                else
-                {
-                    Console.WriteLine("Them that bai!");
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Loi: " + ex.Message);
-            }
-        }
-
-        // Xuat danh sach
-        static void XuatDanhSach(List<SinhVien> danhSach)
-        {
-            Console.WriteLine("\n--- DANH SACH SINH VIEN ---");
-
-            if (danhSach.Count == 0)
-            {
-                Console.WriteLine("Danh sach rong!");
-                return;
-            }
-
-            foreach (SinhVien sinhVien in danhSach)
-            {
-                Console.WriteLine("----------------------------");
-                Console.WriteLine(sinhVien.LayThongTin());
-            }
-        }
-
-        // Tim theo ma
-        static void TimTheoMa()
-        {
-            Console.Write("\nNhap ma sinh vien can tim: ");
-            string maSinhVien = Console.ReadLine() ?? "";
-
-            SinhVien? sinhVien = quanLy.TimTheoMa(maSinhVien);
-
-            if (sinhVien == null)
-            {
-                Console.WriteLine("Khong tim thay sinh vien!");
-            }
-            else
-            {
-                Console.WriteLine(sinhVien.LayThongTin());
-            }
-        }
-
-        // Tim theo ten
-        static void TimTheoTen()
-        {
-            Console.Write("\nNhap tu khoa ho ten: ");
-            string tuKhoa = Console.ReadLine() ?? "";
-
-            List<SinhVien> danhSach = quanLy.TimTheoTen(tuKhoa);
-
-            if (danhSach.Count == 0)
-            {
-                Console.WriteLine("Khong tim thay sinh vien!");
-            }
-            else
-            {
-                XuatDanhSach(danhSach);
-            }
-        }
-
-        // Sua diem
-        static void SuaDiem()
-        {
-            Console.Write("\nNhap ma sinh vien: ");
-            string maSinhVien = Console.ReadLine() ?? "";
-
-            SinhVien? sinhVien = quanLy.TimTheoMa(maSinhVien);
-
-            if (sinhVien == null)
-            {
-                Console.WriteLine("Khong tim thay sinh vien!");
-                return;
-            }
-
-            double diemMoi = NhapDiem();
-
-            try
-            {
-                if (quanLy.SuaDiem(maSinhVien, diemMoi))
-                {
-                    Console.WriteLine("Sua diem thanh cong!");
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Loi: " + ex.Message);
-            }
-        }
-
-        // Xoa sinh vien
-        static void XoaSinhVien()
-        {
-            Console.Write("\nNhap ma sinh vien can xoa: ");
-            string maSinhVien = Console.ReadLine() ?? "";
-
-            if (quanLy.Xoa(maSinhVien))
-            {
-                Console.WriteLine("Xoa sinh vien thanh cong!");
-            }
-            else
-            {
-                Console.WriteLine("Khong tim thay sinh vien!");
-            }
-        }
-
-        // Nhap diem
-        static double NhapDiem()
-        {
-            double diem;
-
-            while (true)
-            {
-                Console.Write("Nhap diem trung binh (0-10): ");
-
-                if (double.TryParse(
-                    Console.ReadLine(), out diem))
-                {
-                    if (diem >= 0 && diem <= 10)
+                    switch (choice)
                     {
-                        return diem;
+                        case "1":
+                            Console.Write("Nhập mã sinh viên: ");
+                            string ma = Console.ReadLine();
+                            Console.Write("Nhập họ tên: ");
+                            string ten = Console.ReadLine();
+                            Console.Write("Nhập ngày sinh (dd/MM/yyyy): ");
+                            DateTime ngaySinh = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", null);
+                            Console.Write("Nhập mã lớp: ");
+                            string lop = Console.ReadLine();
+                            Console.Write("Nhập điểm trung bình (0-10): ");
+                            double diem = double.Parse(Console.ReadLine());
+
+                            SinhVien sv = new SinhVien(ma, ten, ngaySinh, lop, diem);
+                            qlsv.Them(sv);
+                            Console.WriteLine("=> Thêm sinh viên thành công!");
+                            break;
+
+                        case "2":
+                            XuatDanhSach(qlsv.LayDanhSach());
+                            break;
+
+                        case "3":
+                            Console.Write("Nhập mã sinh viên cần tìm: ");
+                            var svTim = qlsv.TimTheoMa(Console.ReadLine());
+                            if (svTim != null) Console.WriteLine(svTim.LayThongTin());
+                            else Console.WriteLine("=> Không tìm thấy sinh viên.");
+                            break;
+
+                        case "4":
+                            Console.Write("Nhập từ khóa tên cần tìm: ");
+                            var dsTim = qlsv.TimTheoTen(Console.ReadLine());
+                            XuatDanhSach(dsTim, "Không tìm thấy sinh viên nào khớp với từ khóa.");
+                            break;
+
+                        case "5":
+                            Console.Write("Nhập mã sinh viên cần sửa điểm: ");
+                            string maSua = Console.ReadLine();
+                            Console.Write("Nhập điểm mới: ");
+                            double diemMoi = double.Parse(Console.ReadLine());
+
+                            if (qlsv.SuaDiem(maSua, diemMoi)) Console.WriteLine("=> Cập nhật điểm thành công!");
+                            else Console.WriteLine("=> Không tìm thấy mã sinh viên này.");
+                            break;
+
+                        case "6":
+                            Console.Write("Nhập mã sinh viên cần xóa: ");
+                            if (qlsv.Xoa(Console.ReadLine())) Console.WriteLine("=> Đã xóa sinh viên.");
+                            else Console.WriteLine("=> Không tìm thấy mã sinh viên này.");
+                            break;
+
+                        case "7":
+                            XuatDanhSach(qlsv.SapXepTheoDiem());
+                            break;
+
+                        case "8":
+                            XuatDanhSach(qlsv.LocSinhVienDat(), "Không có sinh viên nào đạt (điểm >= 5).");
+                            break;
+
+                        case "0":
+                            isRunning = false;
+                            Console.WriteLine("=> Đã thoát chương trình.");
+                            break;
+
+                        default:
+                            Console.WriteLine("=> Lựa chọn không hợp lệ!");
+                            break;
                     }
                 }
-
-                Console.WriteLine(
-                    "Diem khong hop le! Vui long nhap lai.");
+                catch (FormatException)
+                {
+                    Console.WriteLine("=> [LỖI] Dữ liệu nhập sai định dạng (ví dụ: nhập chữ vào phần số hoặc sai ngày).");
+                }
+                catch (ArgumentException ex)
+                {
+                    Console.WriteLine($"=> [LỖI DỮ LIỆU] {ex.Message}");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"=> [LỖI NGHIỆP VỤ] {ex.Message}");
+                }
             }
         }
 
-        // Nhap ngay sinh
-        static DateTime NhapNgaySinh()
+        static void XuatDanhSach(List<SinhVien> ds, string thongBaoRong = "Danh sách trống.")
         {
-            DateTime ngaySinh;
-
-            while (true)
+            if (ds.Count == 0)
             {
-                Console.Write("Nhap ngay sinh (dd/MM/yyyy): ");
-
-                if (DateTime.TryParse(
-                    Console.ReadLine(), out ngaySinh))
-                {
-                    return ngaySinh;
-                }
-
-                Console.WriteLine("Ngay sinh khong hop le!");
+                Console.WriteLine($"=> {thongBaoRong}");
+                return;
             }
-        }
-
-        // Nhap so nguyen
-        static int NhapSoNguyen(string thongBao)
-        {
-            int so;
-
-            while (true)
+            foreach (var sv in ds)
             {
-                Console.Write(thongBao);
-
-                if (int.TryParse(
-                    Console.ReadLine(), out so))
-                {
-                    return so;
-                }
-
-                Console.WriteLine("Vui long nhap so nguyen!");
+                Console.WriteLine(sv.LayThongTin());
             }
         }
     }
