@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{731EA179-3562-D48C-9900-920A3BF84520}|ShopManagerMini.csproj|c:\\users\\ntkt0\\source\\repos\\2611comp101904-lap-trinh-windows\\lab07\\shopmanagermini\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731EA179-3562-D48C-9900-920A3BF84520}|ShopManagerMini.csproj|solutionrelative:models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731EA179-3562-D48C-9900-920A3BF84520}|ShopManagerMini.csproj|c:\\users\\ntkt0\\source\\repos\\2611comp101904-lap-trinh-windows\\lab07\\shopmanagermini\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731EA179-3562-D48C-9900-920A3BF84520}|ShopManagerMini.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731EA179-3562-D48C-9900-920A3BF84520}|ShopManagerMini.csproj|c:\\users\\ntkt0\\source\\repos\\2611comp101904-lap-trinh-windows\\lab07\\shopmanagermini\\frmcustomer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731EA179-3562-D48C-9900-920A3BF84520}|ShopManagerMini.csproj|solutionrelative:frmcustomer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513B7328-69FA-4C1D-9E71-24B422219623}|ShopManagerMini.csproj|C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\frmabout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{513B7328-69FA-4C1D-9E71-24B422219623}|ShopManagerMini.csproj|solutionrelative:frmabout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513B7328-69FA-4C1D-9E71-24B422219623}|ShopManagerMini.csproj|C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{513B7328-69FA-4C1D-9E71-24B422219623}|ShopManagerMini.csproj|solutionrelative:frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513B7328-69FA-4C1D-9E71-24B422219623}|ShopManagerMini.csproj|C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{513B7328-69FA-4C1D-9E71-24B422219623}|ShopManagerMini.csproj|solutionrelative:frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513B7328-69FA-4C1D-9E71-24B422219623}|ShopManagerMini.csproj|C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{513B7328-69FA-4C1D-9E71-24B422219623}|ShopManagerMini.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513B7328-69FA-4C1D-9E71-24B422219623}|ShopManagerMini.csproj|C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{513B7328-69FA-4C1D-9E71-24B422219623}|ShopManagerMini.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731EA179-3562-D48C-9900-920A3BF84520}|ShopManagerMini.csproj|c:\\users\\ntkt0\\source\\repos\\2611comp101904-lap-trinh-windows\\lab07\\shopmanagermini\\frmproduct.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731EA179-3562-D48C-9900-920A3BF84520}|ShopManagerMini.csproj|solutionrelative:frmproduct.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731EA179-3562-D48C-9900-920A3BF84520}|ShopManagerMini.csproj|c:\\users\\ntkt0\\source\\repos\\2611comp101904-lap-trinh-windows\\lab07\\shopmanagermini\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731EA179-3562-D48C-9900-920A3BF84520}|ShopManagerMini.csproj|solutionrelative:frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731EA179-3562-D48C-9900-920A3BF84520}|ShopManagerMini.csproj|c:\\users\\ntkt0\\source\\repos\\2611comp101904-lap-trinh-windows\\lab07\\shopmanagermini\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731EA179-3562-D48C-9900-920A3BF84520}|ShopManagerMini.csproj|solutionrelative:frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731EA179-3562-D48C-9900-920A3BF84520}|ShopManagerMini.csproj|c:\\users\\ntkt0\\source\\repos\\2611comp101904-lap-trinh-windows\\lab07\\shopmanagermini\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731EA179-3562-D48C-9900-920A3BF84520}|ShopManagerMini.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731EA179-3562-D48C-9900-920A3BF84520}|ShopManagerMini.csproj|c:\\users\\ntkt0\\source\\repos\\2611comp101904-lap-trinh-windows\\lab07\\shopmanagermini\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731EA179-3562-D48C-9900-920A3BF84520}|ShopManagerMini.csproj|solutionrelative:frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731EA179-3562-D48C-9900-920A3BF84520}|ShopManagerMini.csproj|c:\\users\\ntkt0\\source\\repos\\2611comp101904-lap-trinh-windows\\lab07\\shopmanagermini\\frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731EA179-3562-D48C-9900-920A3BF84520}|ShopManagerMini.csproj|solutionrelative:frmlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731EA179-3562-D48C-9900-920A3BF84520}|ShopManagerMini.csproj|c:\\users\\ntkt0\\source\\repos\\2611comp101904-lap-trinh-windows\\lab07\\shopmanagermini\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731EA179-3562-D48C-9900-920A3BF84520}|ShopManagerMini.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmCustomer.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmCustomer.Designer.cs",
+              "RelativeDocumentMoniker": "FrmCustomer.Designer.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmCustomer.Designer.cs",
+              "RelativeToolTip": "FrmCustomer.Designer.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAcwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T07:53:31.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmAbout.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmAbout.cs",
+              "RelativeDocumentMoniker": "FrmAbout.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmAbout.cs [Design]",
+              "RelativeToolTip": "FrmAbout.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T07:52:00.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmCustomer.cs",
+              "RelativeDocumentMoniker": "FrmCustomer.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmCustomer.cs",
+              "RelativeToolTip": "FrmCustomer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T07:51:42.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmCustomer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmCustomer.cs",
+              "RelativeDocumentMoniker": "FrmCustomer.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmCustomer.cs [Design]",
+              "RelativeToolTip": "FrmCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T07:51:34.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T07:44:00.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Models.cs",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\Models.cs",
+              "RelativeDocumentMoniker": "Models.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\Models.cs",
+              "RelativeToolTip": "Models.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T07:43:48.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmProduct.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmProduct.Designer.cs",
+              "RelativeDocumentMoniker": "FrmProduct.Designer.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmProduct.Designer.cs",
+              "RelativeToolTip": "FrmProduct.Designer.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T07:53:19.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmProduct.cs",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmProduct.cs",
+              "RelativeDocumentMoniker": "FrmProduct.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmProduct.cs",
+              "RelativeToolTip": "FrmProduct.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T07:50:56.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmProduct.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmProduct.cs",
+              "RelativeDocumentMoniker": "FrmProduct.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmProduct.cs [Design]",
+              "RelativeToolTip": "FrmProduct.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T07:50:41.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FrmMain.cs",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmMain.cs",
+              "RelativeDocumentMoniker": "FrmMain.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmMain.cs",
+              "RelativeToolTip": "FrmMain.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAUwDQAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T07:48:12.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmMain.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmMain.Designer.cs",
+              "RelativeDocumentMoniker": "FrmMain.Designer.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmMain.Designer.cs",
+              "RelativeToolTip": "FrmMain.Designer.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAywDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T07:48:26.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FrmLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmLogin.Designer.cs",
+              "RelativeDocumentMoniker": "FrmLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmLogin.Designer.cs",
+              "RelativeToolTip": "FrmLogin.Designer.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T07:45:35.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FrmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "FrmLogin.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmLogin.cs",
+              "RelativeToolTip": "FrmLogin.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAuwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T07:45:20.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "FrmLogin.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmLogin.cs [Design]",
+              "RelativeToolTip": "FrmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T07:45:05.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmMain.cs",
+              "RelativeDocumentMoniker": "FrmMain.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab07\\ShopManagerMini\\FrmMain.cs [Design]",
+              "RelativeToolTip": "FrmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T07:43:16.353Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

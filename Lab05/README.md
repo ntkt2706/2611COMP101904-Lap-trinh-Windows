@@ -151,8 +151,3 @@ Qua bài thực hành, sinh viên đã vận dụng kiến thức C# và Windows
 
 Bài thực hành giúp củng cố kỹ năng thiết kế giao diện, đặt tên điều khiển, xử lý sự kiện và tổ chức mã nguồn trong một ứng dụng Windows Forms cơ bản.
 
----
-
-Sinh viên thực hiện Nguyễn Trần Khang Thịnh
-MSSV 51.01.104.097
-Môn học COMP1019 - Lập trình trên Windows
