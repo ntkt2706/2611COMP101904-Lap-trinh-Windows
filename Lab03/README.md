@@ -1,8 +1,8 @@
 # 2611COMP101904 - Lập trình Windows
 
-**Họ và tên:** KayTy  
+**Họ và tên:** Nguyễn Trần Khang Thịnh  
 **MSSV:** 51.01.104.097  
-**Lớp:** 51.CNTT.B  
+**Lớp:** K51.CNTT.B  
 
 ---
 
