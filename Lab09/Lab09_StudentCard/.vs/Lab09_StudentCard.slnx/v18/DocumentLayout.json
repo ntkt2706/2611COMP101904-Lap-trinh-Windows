@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab09\\Lab09_StudentCard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4966A7BA-FC35-443C-8183-697C23397446}|Lab09_StudentCard.csproj|c:\\users\\ntkt0\\source\\repos\\2611comp101904-lap-trinh-windows\\lab09\\lab09_studentcard\\frmstudentcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4966A7BA-FC35-443C-8183-697C23397446}|Lab09_StudentCard.csproj|solutionrelative:frmstudentcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4966A7BA-FC35-443C-8183-697C23397446}|Lab09_StudentCard.csproj|c:\\users\\ntkt0\\source\\repos\\2611comp101904-lap-trinh-windows\\lab09\\lab09_studentcard\\frmstudentcard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4966A7BA-FC35-443C-8183-697C23397446}|Lab09_StudentCard.csproj|solutionrelative:frmstudentcard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4966A7BA-FC35-443C-8183-697C23397446}|Lab09_StudentCard.csproj|c:\\users\\ntkt0\\source\\repos\\2611comp101904-lap-trinh-windows\\lab09\\lab09_studentcard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4966A7BA-FC35-443C-8183-697C23397446}|Lab09_StudentCard.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4966A7BA-FC35-443C-8183-697C23397446}|Lab09_StudentCard.csproj|c:\\users\\ntkt0\\source\\repos\\2611comp101904-lap-trinh-windows\\lab09\\lab09_studentcard\\frmstudentcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4966A7BA-FC35-443C-8183-697C23397446}|Lab09_StudentCard.csproj|solutionrelative:frmstudentcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab09\\Lab09_StudentCard\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab09\\Lab09_StudentCard\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T16:14:22.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmStudentCard.cs",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab09\\Lab09_StudentCard\\FrmStudentCard.cs",
+              "RelativeDocumentMoniker": "FrmStudentCard.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab09\\Lab09_StudentCard\\FrmStudentCard.cs",
+              "RelativeToolTip": "FrmStudentCard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T16:13:03.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmStudentCard.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab09\\Lab09_StudentCard\\FrmStudentCard.Designer.cs",
+              "RelativeDocumentMoniker": "FrmStudentCard.Designer.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab09\\Lab09_StudentCard\\FrmStudentCard.Designer.cs",
+              "RelativeToolTip": "FrmStudentCard.Designer.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAcwKsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T16:12:55.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmStudentCard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab09\\Lab09_StudentCard\\FrmStudentCard.cs",
+              "RelativeDocumentMoniker": "FrmStudentCard.cs",
+              "ToolTip": "C:\\Users\\ntkt0\\source\\repos\\2611COMP101904-Lap-trinh-Windows\\Lab09\\Lab09_StudentCard\\FrmStudentCard.cs [Design]",
+              "RelativeToolTip": "FrmStudentCard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T16:12:49.726Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
