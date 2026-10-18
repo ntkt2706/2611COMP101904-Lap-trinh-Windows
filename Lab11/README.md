@@ -27,3 +27,7 @@ Dự án `Lab11_EduManager` là ứng dụng Windows Forms kết nối trực ti
 - **Chuỗi kết nối (Connection String) đang sử dụng trên máy cá nhân:**
   ```csharp
   Server=.;Database=EduManagerDB;Integrated Security=True;TrustServerCertificate=True;
+## 5. Hình ảnh Demo
+**Giao diện Form đang load dữ liệu thực tế từ SQL Server:**
+
+![Giao diện Quản lý Lớp học](Images/01-form-load.png)
