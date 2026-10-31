@@ -120,7 +120,7 @@ QLSinhVienLab12/
 ## ⚙️ Hướng dẫn cài đặt & Khởi chạy
 
 1. Mở file `QLSinhVienLab12.sql` trong SQL Server Management Studio (SSMS) và nhấn `F5` để khởi tạo Database.
-2. Clone project: `git clone https://github.com/KayTy2706/QLSinhVienLab12.git`
+2. Clone project: `git clone https://github.com/ntkt2706/2611COMP101904-Lap-trinh-Windows.git
 3. Mở file `DAL/Database.cs` và điều chỉnh `ConnectionString` khớp với cấu hình SQL Server local của bạn.
 4. Nhấn `F5` trong Visual Studio để biên dịch và chạy ứng dụng.
 
